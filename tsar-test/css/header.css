@@ -1,0 +1,125 @@
+nav{
+    display: flex;
+    height: 128px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+nav img{
+    height: 128px;
+    width: 165px;
+}
+.nav_link{
+    margin-right: 90px;
+    font-size: 24px;
+    transition: all .2s ease;
+}
+.nav_link:hover{
+    border-bottom:3px #AB00EA solid;
+}
+.nav_link:nth-child(1){
+    color: #AB00EA;
+}
+.nav_link:last-child{
+    margin:0;
+}
+
+header{
+    height: 1080px;
+    background: url(../img/header-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.header-content{
+    margin-top: 118px;
+}
+.header-content_social{
+    margin-left: 7px;
+}
+.header-content_social img{
+    height: 46px;
+    width: 46px;
+    margin-right: 25px;
+}
+.header-content_desc{
+    
+    margin-top: 25px;
+}
+.header-title{
+    font-size: 64px;
+    font-weight: bold;
+    color: #AB00EA;
+    margin-bottom: 10px;
+}
+.header-desc{
+    font-size: 48px;
+    width: 904px;
+    margin-left: 2px;
+}
+.header-content_btn{
+    
+    margin-top: 80px;
+}
+.header-btn_bid{
+    width: 375px;
+    height: 62px;
+    margin-right: 25px;
+    border-radius: 5px;
+    background: #AB00EA;
+    border:none;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'TT Firs Neue';
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.header-btn_subscribe{
+    width: 375px;
+    height: 62px;
+    background: transparent;
+    border:2px #fff solid;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'TT Firs Neue';
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.header-btn_subscribe:hover{
+    box-shadow: 0 0 10px 0 #fff;
+    background: #fff;
+    color: #000;
+}
+
+ /* .header-btn_bid:before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 62px;
+    background: #fff;
+    top: 648px;
+    left: 202px;
+    z-index: -1;
+    transition: all 0ms ease;
+    border-radius: 5px;
+} */
+.header-btn_bid:hover {
+    box-shadow: 0 0 30px #AB00EA;
+}
+/* .header-btn_bid:hover:before {
+    position: absolute;
+    content: '';
+    width: 375px;
+    height: 62px;
+    background: #fff;
+    top: 648px;
+    left: 202px;
+    z-index: -1;
+    transition: all 300ms ease;
+    border-radius: 5px;
+} */
+
+  
