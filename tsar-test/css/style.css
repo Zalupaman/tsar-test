@@ -26,7 +26,7 @@ a:focus{
     color:#fff;
     text-decoration: none;
 }
-.container{
-    width: 1517px;
-    margin: 0 auto;
+.align-right{
+    display: flex;
+    justify-content: flex-end;
 }

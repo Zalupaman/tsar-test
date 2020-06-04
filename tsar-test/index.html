@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -48,57 +53,73 @@
     </header>
     <main>
         <div class="container">
-                <div class="masterclass-cards" >
-                    <div class="masterclass-card">
-                        <div class="masterclass-inner">
-                            <div class="masterclass-header">
-                                <p class="masterclass-event">Мастер-Класс</p>
-                                <p class="masterclass-date">7 мая</p>
-                            </div>
-                            <div class="masterclass-title">
-                                <p class="master-title">Дизайн сайта<br>
-                                    в онлайн-сервисе Figma </p>
-                            </div>
-                            <div class="masterclass-preview">
-                                <img src="./img/header-masterclass-figma.png" alt="">
-                            </div>
-                            <button class="masterclass-more">Подробнее</button>
+                <div class="masterclass-cards row" >
+                    <div class="col" style="padding: 0;">
+                        <div class="masterclass-card">
+                            
+                                <div class="masterclass-header">
+                                    <p class="masterclass-event">Мастер-Класс</p>
+                                    <p class="masterclass-date">7 мая</p>
+                                </div>
+                                <div class="masterclass-content">
+                                    <div class="masterclass-title">
+                                        <p class="master-title">Дизайн сайта<br>
+                                            в онлайн-сервисе Figma </p>
+                                    </div>
+                                    <div class="masterclass-preview">
+                                        <img class="img-fluid" src="./img/header-masterclass-figma.png" alt="">
+                                    </div>
+                                    <button class="masterclass-more">Подробнее</button>
+                                </div>
+                            
                         </div>
                     </div>
-                    <div class="masterclass-card">
-                        <div class="masterclass-inner">
-                            <div class="masterclass-header">
-                                <p class="masterclass-event">Мастер-Класс</p>
-                                <p class="masterclass-date">9 мая</p>
-                            </div>
-                            <div class="masterclass-title">
-                                <p class="master-title">Создадим бота для Telegram
-                                    с нейронной сетью на Python</p>
-                            </div>
-                            <div class="masterclass-preview">
-                                <img src="./img/header-masterclass-bot.png" alt="">
-                            </div>
-                            <button class="masterclass-more">Подробнее</button>
+                    <div class="col"style="padding: 0;">
+                        <div class="masterclass-card ">
+                            
+                                <div class="masterclass-header">
+                                    <p class="masterclass-event">Мастер-Класс</p>
+                                    <p class="masterclass-date">9 мая</p>
+                                </div>
+                                <div class="masterclass-content">
+                                    <div class="masterclass-title">
+                                        <p class="master-title">Создадим бота для Telegram
+                                            с нейронной сетью на Python</p>
+                                    </div>
+                                    <div class="masterclass-preview">
+                                        <img class="img-fluid" src="./img/header-masterclass-bot.png" alt="">
+                                    </div>
+                                    <button class="masterclass-more">Подробнее</button>
+                                </div>
+
+                            
                         </div>
                     </div>
-                    <div class="masterclass-card">
-                        <div class="masterclass-inner">
-                            <div class="masterclass-header">
-                                <p class="masterclass-event">Мероприятие</p>
-                                <p class="masterclass-date">11 мая</p>
-                            </div>
-                            <div class="masterclass-title">
-                                <p class="master-title">День открытых дверей
-                                    «Online Open Day»</p>
-                            </div>
-                            <div class="masterclass-preview">
-                                <img src="./img/header-masterclass-open.png" alt="">
-                            </div>
-                            <button class="masterclass-more">Подробнее</button>
+                    <div class="col"style="padding: 0;">
+                        <div class="masterclass-card">
+                            
+                                <div class="masterclass-header">
+                                    <p class="masterclass-event">Мероприятие</p>
+                                    <p class="masterclass-date">11 мая</p>
+                                </div>
+                                <div class="masterclass-content">
+                                    <div class="masterclass-title">
+                                        <p class="master-title">День открытых дверей
+                                            «Online Open Day»</p>
+                                    </div>
+                                    <div class="masterclass-preview">
+                                        <img class="img-fluid" src="./img/header-masterclass-open.png" alt="">
+                                    </div>
+                                    <button class="masterclass-more">Подробнее</button>
+                                </div>
+
+                            
                         </div>
                     </div>
-                    <a class="masterclass-event-calendar">Перейти к календарю<br>
-                        мероприятий</a>
+                    <div class="col-1" style="padding: 0; display: flex; align-items: flex-end;">
+                        <p class="masterclass-event-calendar">Перейти к календарю мероприятий</p>
+                    </div>
+
                 </div>
         </div>
         <div class="news" id="news">
@@ -181,9 +202,9 @@
                                         ФГОС № 09.02.07
                                     </div>
                                     <div class="special-card_desc">
-                                        <div class="specialcard_desc-title">
+                                        <h5 class="specialcard_desc-title">
                                             Веб- и мультимедийная разработка
-                                        </div>
+                                        </h5>
                                         <div class="special-card_desc-txt">
                                             Специалист по веб-разработке, проектирует и создает сайты 
                                             и мобильные приложения
@@ -200,9 +221,9 @@
                                         ФГОС № 09.02.07
                                     </div>
                                     <div class="special-card_desc">
-                                        <div class="specialcard_desc-title">
+                                        <h5 class="specialcard_desc-title">
                                             Программирование
-                                        </div>
+                                        </h5>
                                         <div class="special-card_desc-txt">
                                             Программист пишет код для ПО, создаёт сайты, мобильные приложения, игры, обучает машины и роботов
                                         </div>
@@ -344,7 +365,7 @@
 
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-8" style="padding: 0;">
                             <div class="special-card big-card">
                                 <div class="special-card_inner">
                                     <div class="special-card_label">
@@ -371,11 +392,20 @@
         </div>
         <div class="subscribe-news" >
             <div class="container">
+                
                 <div class="subscribe-news_title">Подписаться на новости</div>
-                <div class="subscribe-news_subtitle">Не пропустите мастер-классы и дни открытых<br> дверей!</div>
-                <input type="text" placeholder="E-mail" class="subscribe-news_inp">
-                <button class="subsctibe-news_btn">Подписаться на рассылку</button>
-                <div class="subscribe-news_desc">* Нажимая кнопку “Подписаться на рассылку”, Вы соглашаетесь с условиями обработки ваших<br> персональных данных</div>
+                <div class="row">
+                    <div class="subscribe-news_content-left col-7">
+                        <div class="subscribe-news_subtitle">Не пропустите мастер-классы и дни открытых<br> дверей!</div>
+                        <input type="text" placeholder="E-mail" class="subscribe-news_inp">
+                        <button class="subsctibe-news_btn">Подписаться на рассылку</button>
+                        <div class="subscribe-news_desc">* Нажимая кнопку “Подписаться на рассылку”, Вы соглашаетесь с условиями обработки ваших<br> персональных данных</div>
+                    </div>
+                    <div class="subscribe-news_content-left col-4">
+                        <img src="./img/subscribe-news-bg.png" alt="" srcset="">
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="normals">
@@ -390,7 +420,10 @@
                         <div class="normals-card_inner">
                             <img src="./img/normals-accredit-license.png" class="normals-card_img" alt="">
                             <div class="normals-card_desc">
-                                <div class="normals-card_desc-label">№ 004915 от 18 октября 2019 года</div>
+                                <div class="align-right">
+                                    <span class="normals-card_desc-label">№ 004915 от 18 октября 2019 года</span>
+                                </div>
+                                
                                 <div class="normals-card_desc-title">Свидетельство <br>
                                     о ГОСУДАРСТВЕННой АККРЕДИТАЦИи</div>
                                 <div class="normals-card_desc-txt">Свидетельство о государственной аккредитации образовательной деятельности по группе профессий “Экономика и управление”. Это означает, что качество образования соответствует федеральным государственным стандартам.</div>
@@ -401,7 +434,9 @@
                         <div class="normals-card_inner">
                             <img src="./img/normals-study-license.png" class="normals-card_img" alt="">
                             <div class="normals-card_desc">
-                                <div class="normals-card_desc-label">№ 038613 от 9 августа 2017 года</div>
+                                <div class="align-right">
+                                    <span class="normals-card_desc-label">№ 004915 от 18 октября 2019 года</span>
+                                </div>
                                 <div class="normals-card_desc-title">ЛИЦЕНЗИЯ
                                     НА ОСУЩЕСТВЛЕНИЕ
                                     ОБРАЗОВАТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ</div>
@@ -413,7 +448,9 @@
                         <div class="normals-card_inner">
                             <img src="./img/normals-accredit-license.png" class="normals-card_img" alt="">
                             <div class="normals-card_desc">
-                                <div class="normals-card_desc-label">№ 004915 от 18 октября 2019 года</div>
+                                <div class="align-right">
+                                    <span class="normals-card_desc-label">№ 004915 от 18 октября 2019 года</span>
+                                </div>
                                 <div class="normals-card_desc-title">Свидетельство <br>
                                     о ГОСУДАРСТВЕННой АККРЕДИТАЦИи</div>
                                 <div class="normals-card_desc-txt">Свидетельство о государственной аккредитации образовательной деятельности по группе профессий “Экономика и управление”. Это означает, что качество образования соответствует федеральным государственным стандартам.</div>
@@ -424,7 +461,9 @@
                         <div class="normals-card_inner">
                             <img src="./img/normals-certiport-license.png" class="normals-card_img" alt="">
                             <div class="normals-card_desc">
-                                <div class="normals-card_desc-label">№ 038613 от 9 августа 2017 года</div>
+                                <div class="align-right">
+                                    <span class="normals-card_desc-label">№ 004915 от 18 октября 2019 года</span>
+                                </div>
                                 <div class="normals-card_desc-title">ЛИЦЕНЗИЯ
                                     НА ОСУЩЕСТВЛЕНИЕ
                                     ОБРАЗОВАТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ</div>
@@ -439,19 +478,24 @@
             <div class="container">
                 <div class="welcome-title">Welcome Book</div>
                 
-                <div class="welcome-content">
-                    <img src="./img/welcomeBook-img.png" class="welcome-content_img" alt="">
-                    <div class="welcome-content_description">
-                        <div class="welcome-content_subtitle">Добро пожаловать! </div>
-                        <div class="welcome-content_desc">Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации модели развития. Таким образом укрепление и развитие структуры играет важную роль</div>
-                        <a href="" class="welcome-content_link">Скачать PDF</a>
-                        <a href="" class="welcome-content_link">Просмотреть онлайн</a>
+                <div class="welcome-content row">
+                    <div class="welcome-content_left col">
+                        <img src="./img/welcomeBook-img.png" class="welcome-content_img" alt="">
                     </div>
+                    <div class="welcome-content_right col">
+                        <div class="welcome-content_description">
+                            <div class="welcome-content_subtitle">Добро пожаловать! </div>
+                            <div class="welcome-content_desc">Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации модели развития. Таким образом укрепление и развитие структуры играет важную роль</div>
+                            <a href="" class="welcome-content_link">Скачать PDF</a>
+                            <a href="" class="welcome-content_link">Просмотреть онлайн</a>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
         </div>
-        <div class="prepods-slider">
+        <div class=" ds-slider">
             <div class="container">
                 <p class="prepods-slider_title">Кто у нас преподает</p>
                 <div class="prepods-container">
@@ -710,16 +754,16 @@
         <div class="student-reviews">
             <div class="container">
                 <p class="student-reviews-title">Отзывы студентов</p>
-                <div class="student-review">
-                    <img src="./img/student-review-gamid.png " alt="">
-                    <div class="student-review_desc">
+                <div class="student-review row">
+                    <img src="./img/student-review-gamid.png " class="student-review-img col-6" alt="">
+                    <div class="student-review_desc col-6">
                         <p class="student-review_desc-title">Гамид Огурлиев</p>
                         <p class="student-review_desc-subtitle">Программист 2 курс</p>
                         <p class="student-review_desc-txt">“За свою карьеру я пропустил более 9000 бросков, проиграл почти 300 игр. 26 раз мне доверяли сделать финальный победный бросок, и я промахивался. Я терпел поражения снова, и снова, и снова. И именно поэтому я добился успеха.”</p>
                         <div class="student-review_desc-achieve">
                             <p class="student-review_desc-achieve_title">Достижения:</p>
                             <div class="student-review_desc-achieve_list">
-                                
+                                <img src="./img/anal-balls.png" class="student-review_desc-achieve_list-img"alt="">
                                 <div class="student-review_desc-achieve_list-items">
                                     <p class="student-review_desc-achieve_list-item">Куратор</p>
                                     <p class="student-review_desc-achieve_list-item">Проект BisUP - Сервис для прокачки бизнес навыков</p>
@@ -745,44 +789,61 @@
             </div>
         </div>
         <div class="students">
-            <div class="container students-items">
-                <div class="students-item">
-                    <div class="students-item_inner">
-                        <div class="students-item_label">Веб-разработчик</div>
-                        <div class="students-item_name">Никита Стогний</div>
+            <div class="container">
+                <div class=" students-items row">
+                    <div class="students-item col">
+                        <div class="students-item_inner">
+                            <div class="students-item_label">Веб-разработчик</div>
+                            <div class="students-item_bot-right">
+                                <div class="students-item_name">Никита Стогний</div>
+                            </div>
+                            
+                        </div>
                     </div>
-                </div>
-                <div class="students-item">
-                    <div class="students-item_inner">
-                        <div class="students-item_label">Инф. безопасность</div>
-                        <div class="students-item_name">глеб москвин</div>
+                    <div class="students-item col">
+                        <div class="students-item_inner">
+                            <div class="students-item_label">Инф. безопасность</div>
+                            <div class="students-item_bot-right">
+                                <div class="students-item_name">глеб москвин</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="students-item">
-                    <div class="students-item_inner">
-                        <div class="students-item_label">коммерция в it</div>
-                        <div class="students-item_name">Катерина Вишневская</div>
+                    <div class="students-item col">
+                        <div class="students-item_inner">
+                            <div class="students-item_label">коммерция в it</div>
+                            <div class="students-item_bot-right">
+                                <div class="students-item_name">Катерина Вишневская</div>
+                            </div>
+                            
+                        </div>
                     </div>
-                </div>
-                <div class="students-item">
-                    <div class="students-item_inner">
-                        <div class="students-item_label">Аддитивные тех.</div>
-                        <div class="students-item_name">Вадим Соколов</div>
+                    <div class="students-item col">
+                        <div class="students-item_inner">
+                            <div class="students-item_label">Аддитивные тех.</div>
+                            <div class="students-item_bot-right">
+                                <div class="students-item_name">Вадим Соколов</div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="lookCollege">
             <div class="container">
                 <p class="lookCollege-title">Посмотреть колледж</p>
-                <div class="lookCollege-content">
-                    <div class="lookCollege-desc">
+                <div class="lookCollege-content row">
+                    <div class="lookCollege-desc col">
                         <p class="lookCollege-desc_title">Интерактивная экскурсия по колледжу</p>
                         <p class="lookCollege-desc_txt">Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации модели развития. Таким образом укрепление и развитие структуры играет важную роль.</p>
-                        <a href="" class="lookCollege-desc_link">Посмотреть онлайн</a>
-                        <a href="" class="lookCollege-desc_link">Записаться на экскурсию</a>
+                        <div class="lookCollege-desc_links">
+                            <a href="" class="lookCollege-desc_link">Посмотреть онлайн</a>
+                            <a href="" class="lookCollege-desc_link">Записаться на экскурсию</a>
+                        </div>
+
                     </div>
-                    <img src="./img/lookCollege-img.png" alt="">
+                    <img src="./img/lookCollege-img.png" class="lookCollege-img col" alt="">
                 </div>
             </div>
         </div>
@@ -794,10 +855,8 @@
                     <input type="text" class="request-content_inp" placeholder="телефон">
                     <input type="text" class="request-content_inp" placeholder="E-mail">
                     <input type="text" class="request-content_inp" placeholder="сколько классов закончил?">
-                    <div class="request-submit">
-                        
-                            <input type="checkbox" class="request-check" onclick="checked()" id="cb1"> <label for="cb1"><span class="label-span">Я даю согласие на обработку своих<br> персональных данных</span></label>
-                        
+                    <div class="request-submit ">
+                        <input type="checkbox" class="request-check" onclick="checked()" id="cb1"> <label for="cb1" ><span class="label-span">Я даю согласие на обработку своих<br> персональных данных</span></label>          
                         <button class="request-submit_btn">Отправить</button>
                     </div>
                 </form>
@@ -825,8 +884,8 @@
         <div class="faq">
             <div class="container">
                 <p class="faq-title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</p>
-                <div class="faq-content">
-                    <div class="faq-questions">
+                <div class="faq-content row">
+                    <div class="faq-questions col">
                         <div class="faq-question">
                             <span class="faq-number" id="faq-1">01</span>
                             <span class="faq-question_txt" onclick="showAnswer(1)">Где расположен колледж?</span>
@@ -868,13 +927,13 @@
                             <span  class="faq-question_txt" onclick="showAnswer(10)">Как получить налоговый вычет за обучение?</span>
                         </div>
                     </div>
-                    <div class="faq-answers">
+                    <div class="faq-answers col">
                         <div class="faq-answer">
                             <div class="faq-answer_inner">
                                 <div class="faq-answer_desc" style="opacity: 1; transition: all .2s ease;" >
                                     <p class="faq-answer_title">Где расположен колледж?</p>
-                                    <p class="faq-answer_txt">У колледжа два корпуса.<br><br>
-                                        Корпус на Курской — Москва, Костомаровский переулок, дом 3, стр 4. м. Курская, м.Чкаловская.<br><br>
+                                    <p class="faq-answer_txt">У колледжа два корпуса.<br>
+                                        Корпус на Курской — Москва, Костомаровский переулок, дом 3, стр 4. м. Курская, м.Чкаловская.<br>
                                         Корпус на ВДНХ — Москва, проспект Мира, 119, стр. 63, павильоны «Цифра-1», «Цифра-2».</p>
                                     <a href="#" class="faq-answer_showMap">Показать на карте</a>
                                 </div>
@@ -927,7 +986,7 @@
                             
 
                         </div>
-                        <div class="faq-another_answers">
+                        <div class="faq-another_answers  ">
                             <p class="faq-another_answers-title">Остались ещё вопросы?</p>
                             <p class="faq-another_answers-subtitle">Мы с радостью ответим!</p>
                             <button class="faq-another_answers-btn">Задать вопрос</button>
@@ -940,10 +999,10 @@
     <footer id="contact">
         <div class="container">
             <div class="row footer-content">
-                <div class="col">
+                <div class="col-2">
                     <img src="./img/logo-header.png" alt="">
                 </div>
-                <div class="col">
+                <div class="col-7">
                     <div class="row">
                         <p class="footer-spec_title">Выбери востребованную профессию в digital!</p>
                     </div>
@@ -988,10 +1047,6 @@
             <p>Политика конфиденциальности</p>
         </div>
     </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>

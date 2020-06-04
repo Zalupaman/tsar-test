@@ -4,14 +4,21 @@
     top: -195px;
 
 }
-
+.masterclass-header{
+    margin: 1.25rem;
+}
+.masterclass-content{
+    padding: 1.25rem;
+}
 .masterclass-card{
-    width: 400px;
-    height: 480px;
     background: rgba(0, 0, 0, 0.9);
     border: 3px solid #AB00EA;
     margin-right: 35px;
     transition: all .2s ease;
+    width: 95%;
+}
+.masterclass-cards .col:nth-child(3) .masterclass-card{
+    margin: 0;
 }
 .masterclass-card:hover{
     border-radius: 25px;
@@ -64,12 +71,11 @@
     background: #AB00EA;
 }
 .masterclass-event-calendar{
-    position: absolute;
     font-weight: 300;
     font-size: 24px;
     line-height: 31px;
-    right: -70px;
-    top: 227px;
+    padding: 0;
+    margin-bottom: 1rem;
 }
 .news{
     margin-top: -100px;
@@ -164,11 +170,13 @@
     margin-top: 52px;
     margin-left: 5px; 
 }
+.special-cards .col{
+    padding: 0;
+}
 .special-card{
-    width: 350px;
     height: 450px;
     border: 3.00403px solid #AB00EA;
-    margin-right: 30px;
+    margin-right: 15px;
     transition: all .2s ease;
 }
 
@@ -220,8 +228,7 @@
     padding: 20px;
 }
 .special-card_desc{
-    position: relative;
-    bottom: -240px;
+    margin-top: 180px;
 }
 .row .col-8 .special-card_desc{
     width: 50%;
@@ -229,7 +236,6 @@
 
 .specialcard_desc-title{
     font-weight: 600;
-    font-size: 24.0322px;
     line-height: 31px;
     display: flex;
     align-items: flex-end;
@@ -241,15 +247,13 @@
     margin-top: 10px;
 }
 .big-card{
-    width: 1111px;
     height: 450px;
 }
 .subscribe-news{
     margin-top: 103px;
-    background: url(../img/subscribe-news-bg.png);
 
     background-repeat: no-repeat;
-    background-position: 85% 100%;
+    background-position: 100% 100%;
 }
 .subscribe-news .container{
     display: flex;
@@ -271,7 +275,7 @@
 .subscribe-news_inp{
     padding-bottom:11px ;
     height: 35px;
-    width: 700px;
+    width: 100%;
     background: transparent;
     outline: none;
     border: 0;
@@ -295,8 +299,9 @@
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 20px;
-    width: 700px;
+    width: 100%;
     height: 70px;
+    color:#fff;
 }
 
 .subscribe-news_desc{
@@ -359,10 +364,10 @@
     justify-content: center;
     justify-self: right;
     background: #AB00EA;
-    margin-left: 200px;
 }
 .normals-card_img{
     margin-right: 20px;
+    width: 100%;
 }
 .normals-card_desc-title{
     font-size: 20px;
@@ -410,7 +415,9 @@
 .welcome-content_description{
     margin-left: 30px;
 }
-
+.welcome-content_img{
+    width: 100%;
+}
 
 
 .prepods-slider_title{
@@ -422,7 +429,7 @@
 }
 .prepods-slider_desc{
     margin-top: 180px;
-    width: 60%;
+    width: 650px;
 }
 .prepods-slider_desc-title{
     color: #AB00EA;
@@ -458,10 +465,8 @@
 }
 .prepods-slider_content{
     display: flex;
-    justify-content: space-between;
     transition: all .2s ease;
     position: absolute;
-    width: 1487px;
 }
 .prepods-slider_slider-inner{
     width: 512px;
@@ -497,9 +502,13 @@ color: #AB00EA;
     margin-top: 70px;
 }
 .prepod-card{
-    margin-right: 30px;
-    width: 350px;
-    height: 456px;
+    margin-right: 15px;
+}
+.prepod-card_desc{
+    margin-left: 15px;
+}
+.prepod-card img{
+    width: 115%;
 }
 .prepod-card_desc-title{
     font-weight: bold;
@@ -539,16 +548,12 @@ color: #AB00EA;
 
     text-transform: uppercase;
 }
-.student-review_desc{
-    margin-left: 92px;
-}
+
 .student-review{
     display: flex;
     margin-top: 56px;
 }
-.student-review_desc{
-    margin-top: 50px;
-}
+
 .student-review_desc-title{
     font-weight: bold;
     font-size: 64px;
@@ -572,7 +577,6 @@ color: #AB00EA;
     line-height: 31px;
     display: flex;
     align-items: center;
-    width: 734px;
 }
 .student-review_desc-achieve_title{
     font-weight: 600;
@@ -581,24 +585,30 @@ line-height: 41px;
 text-transform: capitalize;
 margin-top: 42px;
 }
+.student-review-img{
+    width: 100%;
+    height: 740px;
+}
 .student-review_desc-achieve_list{
     margin-left: 5px;
 }
 .student-review_desc-achieve_list{
     display: flex;
-    background: url(../img/anal-balls.png);
+    
     background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 200px;
+
+    
+}
+.student-review_desc-achieve_list-img{
+    height: 192px;
 }
 .student-review_desc-achieve_list-items{
-    margin-left: 44px;
-    margin-top: -4px;
+    margin-left: 22px;
+    margin-top: -3px;
 }
 .student-review_desc-achieve_list-item{
     font-weight: 300;
-    font-size: 24px;
+    font-size: 18px;
     
 }
 .student-review_desc-achieve_img{
@@ -612,6 +622,7 @@ margin-top: 42px;
 }
 .students-item_inner{
     padding: 10px 10px 15px 10px;
+    height: 100%;
 }
 .students-item{
     width: 351px;
@@ -619,10 +630,10 @@ margin-top: 42px;
     
     margin-right: 30px;
 }
-.students-item:nth-child(1){background-image: url(../img/student-stogniy.png);}
-.students-item:nth-child(2){background-image: url(../img/student-moskvin.png);}
-.students-item:nth-child(3){background-image: url(../img/student-vishnevskaya.png);}
-.students-item:nth-child(4){background-image: url(../img/student-sokolov.png);}
+.students-item:nth-child(1){background-image: url(../img/student-stogniy.png); background-position: center;}
+.students-item:nth-child(2){background-image: url(../img/student-moskvin.png); background-position: center;}
+.students-item:nth-child(3){background-image: url(../img/student-vishnevskaya.png); background-position: center;}
+.students-item:nth-child(4){background-image: url(../img/student-sokolov.png);  background-position: center;}
 .students-item_label{
     width: 170.17px;
     height: 25px;
@@ -634,6 +645,12 @@ margin-top: 42px;
     text-transform: uppercase;
     background: #AB00EA;
 }
+.students-item_bot-right {
+    height: 92%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
 .students-item_name{
     width: 170.17px;
     height: 25px;
@@ -644,8 +661,6 @@ margin-top: 42px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     background: #AB00EA;
-    margin-top: 281px;
-    margin-left: 161px;
 }
 .students-items{
     display: flex;
@@ -679,11 +694,15 @@ text-transform: uppercase;
     margin-bottom: 30px;
 }
 .lookCollege-desc_link{
+    display: block;
     font-weight: bold;
     font-size: 24px;
 /* Purple */
 margin-right: 40px;
 color: #AB00EA;
+}
+.lookCollege-img{
+    width: 100%;
 }
 
 .request{
@@ -694,23 +713,29 @@ color: #AB00EA;
     font-weight: bold;
     text-transform: uppercase;
 }
-.request-content{
+.request-content {
     margin-top: 50px;
-    width: 1491px;
-    height: 801px;
+    width: 100%;
+    height: 611px;
     background: url(../img/request-bg.svg);
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
     display: flex;
     flex-direction: column;
-    padding: 140px 70px 100px 551px;
+    padding: 70px 70px 0px 387px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.request-content_inp{
+.request-content_inp {
     outline: none;
-    padding: 20px 0 20px 30px;
-    width: 840px;
+    padding: 10px 0 10px 20px;
+    width: 100%;
     border: 3px #AB00EA solid;
     background: transparent;
     color: #AB00EA;
-    font-size: 22.5594px;
+    font-size: 18.559px;
     text-transform: uppercase;
     margin-top: 56px;
 }
@@ -722,9 +747,9 @@ color: #AB00EA;
     font-size: 22.5594px;
     text-transform: uppercase;
 }
-.request-submit_btn{
+.request-submit_btn {
     width: 281px;
-    height: 70px;
+    height: 57px;
     text-transform: uppercase;
     background: #AB00EA;
     border-radius: 6.02585px;
@@ -732,8 +757,10 @@ color: #AB00EA;
     outline: none;
     cursor: pointer;
     font-size: 25.3793px;
-    margin-left: 156px;
-}.request-submit{
+    margin-left: 50px;
+    color: #fff;
+}
+.request-submit{
     display: flex;
     margin-top: 60px;
     
@@ -779,30 +806,30 @@ label::before{
 }
 .partner{
     width: 298.4px;
-    height: 298.4px;
+    height: 228.4px;
     transition: all .1s ease;
 }
-.partners-content:nth-child(2) .partner:nth-child(1){background: url(../img/partner-oracle-off.png);}
-.partners-content:nth-child(2) .partner:nth-child(2){background: url(../img/partner-apple-off.png);}
-.partners-content:nth-child(2) .partner:nth-child(3){background: url(../img/partner-sap-off.png);}
-.partners-content:nth-child(2) .partner:nth-child(4){background: url(../img/partner-autodesk0off.png);}
-.partners-content:nth-child(2) .partner:nth-child(5){background: url(../img/partner-ibm-off.png);}
-.partners-content:nth-child(3) .partner:nth-child(1){background: url(../img/partner-microsoft-off.png);}
-.partners-content:nth-child(3) .partner:nth-child(2){background: url(../img/partner-cisco-off.png);}
-.partners-content:nth-child(3) .partner:nth-child(3){background: url(../img/partner-adobe-off.png);}
-.partners-content:nth-child(3) .partner:nth-child(4){background: url(../img/partner-certiport-off.png);}
-.partners-content:nth-child(3) .partner:nth-child(5){background: url(../img/partner-mikrotick-off.png);}
+.partners-content:nth-child(2) .partner:nth-child(1){background: url(../img/partner-oracle-off.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(2){background: url(../img/partner-apple-off.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(3){background: url(../img/partner-sap-off.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(4){background: url(../img/partner-autodesk0off.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(5){background: url(../img/partner-ibm-off.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(1){background: url(../img/partner-microsoft-off.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(2){background: url(../img/partner-cisco-off.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(3){background: url(../img/partner-adobe-off.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(4){background: url(../img/partner-certiport-off.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(5){background: url(../img/partner-mikrotick-off.png); background-size: contain;}
 
-.partners-content:nth-child(2) .partner:nth-child(1):hover{background: url(../img/partner-oracle-on.png);}
-.partners-content:nth-child(2) .partner:nth-child(2):hover{background: url(../img/partner-apple-on.png);}
-.partners-content:nth-child(2) .partner:nth-child(3):hover{background: url(../img/partner-sap-on.png);}
-.partners-content:nth-child(2) .partner:nth-child(4):hover{background: url(../img/partner-autodesk0on.png);}
-.partners-content:nth-child(2) .partner:nth-child(5):hover{background: url(../img/partner-ibm-on.png);}
-.partners-content:nth-child(3) .partner:nth-child(1):hover{background: url(../img/partner-microsoft-on.png);}
-.partners-content:nth-child(3) .partner:nth-child(2):hover{background: url(../img/partner-cisco-on.png);}
-.partners-content:nth-child(3) .partner:nth-child(3):hover{background: url(../img/partner-adobe-on.png);}
-.partners-content:nth-child(3) .partner:nth-child(4):hover{background: url(../img/partner-certiport-on.png);}
-.partners-content:nth-child(3) .partner:nth-child(5):hover{background: url(../img/partner-mikrotick-on.png);}
+.partners-content:nth-child(2) .partner:nth-child(1):hover{background: url(../img/partner-oracle-on.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(2):hover{background: url(../img/partner-apple-on.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(3):hover{background: url(../img/partner-sap-on.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(4):hover{background: url(../img/partner-autodesk0on.png); background-size: contain;}
+.partners-content:nth-child(2) .partner:nth-child(5):hover{background: url(../img/partner-ibm-on.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(1):hover{background: url(../img/partner-microsoft-on.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(2):hover{background: url(../img/partner-cisco-on.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(3):hover{background: url(../img/partner-adobe-on.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(4):hover{background: url(../img/partner-certiport-on.png); background-size: contain;}
+.partners-content:nth-child(3) .partner:nth-child(5):hover{background: url(../img/partner-mikrotick-on.png); background-size: contain;}
 
 
 
@@ -856,18 +883,20 @@ label::before{
 }
 .faq-answer{
     margin-left: 77px;
-    width: 800px;
+    width: 100%;
     height: 550px;
     background: url(../img/answer-bg.png);
     opacity: 1;
     overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .faq-answer{
-    padding: 60px 50px 60px 41px;
+    padding: 8px 6px 0px 24px;
 }
 .faq-answer_title{
     font-weight: bold;
-font-size: 48px;
+font-size: 32px;
 line-height: 62px;
 
 /* Purple */
@@ -879,7 +908,7 @@ color: #AB00EA;
 
 
     font-weight: 300;
-    font-size: 30px;
+    font-size: 18px;
     line-height: 39px;
 }
 .faq-answer_showMap{
@@ -892,7 +921,7 @@ color: #AB00EA;
 
 color: #AB00EA;
     position: relative;
-    top: 65px;
+    top: 93px;
 }
 .faq-another_answers{
     margin-top: 50px;
@@ -905,9 +934,10 @@ color: #AB00EA;
     outline: none;
     font-weight: 600;
     font-size: 24px;
-    width: 601px;
+    width: 100%;
     height: 70px;
     margin-top: 50px;
+    color: #fff;
 }
 
 .faq-another_answers-title{
@@ -928,7 +958,7 @@ color: #AB00EA;
 
 .faq-answer_desc{
     height: 483px;
-    width: 711px;
+    /*! width: 711px; */
     position: absolute;
     transition: all .5s ease;
 }
